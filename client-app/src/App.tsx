@@ -13,7 +13,6 @@ class App extends Component {
 
     axios.get('http://localhost:5000/api/values')
       .then((response) => {
-        console.log(response);
         this.setState({
           values: response.data
         })
@@ -33,7 +32,7 @@ class App extends Component {
             <List.Item key={value.id}>{value.name}</List.Item>
           ))}
         </List>
-        
+
       </div>
     );
   }

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
-namespace DatingApp.API.Controllers
+namespace Reactivities.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
